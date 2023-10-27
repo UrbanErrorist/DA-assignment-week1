@@ -5,7 +5,7 @@ Just rename example.env to .env and run
 `npm run dev
 `
 
-The app is deployed here[https://da-assignment-week1.vercel.app/]
+
 
 - Comments:
   - This is the Home page you see on browser. I am importing a Table component and TableEdit (which allow user to add user).
