@@ -1,4 +1,7 @@
 "use client";
+// Rishabh Goswami
+// matriculation number: 1455991
+//28 October 2023
 import React from "react";
 import { useRouter } from "next/navigation";
 
@@ -35,11 +38,6 @@ export default function TableEdit() {
 
 		if (!mobile) {
 			alert("Mobile is required");
-			return;
-		}
-
-		if (/^(\+\d{5,9}[- ]?)?\d{10}$/.test(mobile)) {
-			alert("Mobile must be a valid number");
 			return;
 		}
 
