@@ -41,11 +41,6 @@ export default function TableEdit() {
 			return;
 		}
 
-		if (/^(\+\d{5,9}[- ]?)?\d{10}$/.test(mobile)) {
-			alert("Mobile must be a valid number");
-			return;
-		}
-
 		setsubmitting(true);
 		try {
 			const body = { name: e.target.name.value, mobile: e.target.mobile.value };
