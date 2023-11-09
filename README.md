@@ -1,4 +1,5 @@
-# Distributed Application Readme
+# Distributed Application 
+### Rishabh Goswami
 
 ## Overview
 
