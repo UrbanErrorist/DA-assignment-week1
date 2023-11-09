@@ -16,8 +16,8 @@ To run the application locally, follow these steps:
 
    Set Up Environment Variables:
 
-2. **Clone the Repository:**Locate the example.env file and rename it to .env.
-Ensure that all necessary credentials are filled in, including the test PostgreSQL server URL.
+2. **Clone the Repository:**
+   Locate the example.env file and rename it to .env. Ensure that all necessary credentials are filled in, including the test PostgreSQL server URL.
 
 4. **Run the app:**
    ```bash
