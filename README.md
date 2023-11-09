@@ -58,3 +58,9 @@ https://purple-pebble-02b637410.4.azurestaticapps.net
 GitHub Actions are used for CI/CD. The workflow file is named azure-static-web-apps-purple-pebble-02b637410.yml.
 
 Feel free to explore the application, add data, and enjoy the seamless integration of Next.js, PostgreSQL, and Azure. If you encounter any issues or have questions, refer to the documentation or reach out me :) 
+
+
+
+### Reference:
+This project is based on Verce Prisma Starter Template provided by vercel team [https://github.com/vercel/examples/tree/main/storage/postgres-prisma]
+
