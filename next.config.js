@@ -3,6 +3,7 @@ const nextConfig = {
 	images: {
 		domains: ["i.pravatar.cc"],
 	},
+	output: "standalone",
 };
 
 module.exports = nextConfig;

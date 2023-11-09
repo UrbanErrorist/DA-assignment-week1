@@ -9,11 +9,15 @@
 // Look inside table and tableEdit component to see the front end part of the application where i am displaying the data and allowing user to add new new data
 import Image from "next/image";
 import Link from "next/link";
-import { Suspense } from "react";
+import { Suspense, use } from "react";
 import Table from "@/components/table";
 import TablePlaceholder from "@/components/table-placeholder";
 import TableEdit from "@/components/table-edit";
 import React from "react";
+import { advice_client } from "./clientapi/advice_client";
+import { AxiosResponse } from "axios";
+import { get } from "http";
+import Advice from "@/components/advice";
 
 export default function Home() {
 	return (
@@ -21,13 +25,14 @@ export default function Home() {
 			<h1 className="pt-4 pb-8 bg-gradient-to-br from-black via-[#171717] to-[#575757] bg-clip-text text-center text-4xl font-medium tracking-tight text-transparent md:text-7xl">
 				Distributed Applications
 			</h1>
-			<Suspense fallback={<TablePlaceholder />}>
+			<Advice />
+			{/* <Suspense fallback={<TablePlaceholder />}>
 				<Table />
-			</Suspense>
+			</Suspense> */}
 
 			<div className="p-2"></div>
 
-			<TableEdit />
+			{/* <TableEdit /> */}
 
 			<p className="font-light text-gray-600 w-full max-w-lg text-center mt-6">
 				{" "}
