@@ -7,14 +7,14 @@ generator client {
 
 datasource db {
   provider  = "postgresql"
-  url       = env("POSTGRES_PRISMA_URL") // uses connection pooling
-  directUrl = env("POSTGRES_URL_NON_POOLING") // uses a direct connection
+  url       = "postgres://pdlhcwjc:3nqgtJ82LHQQQmDWvCI823dG6PTZCq7s@trumpet.db.elephantsql.com/pdlhcwjc" // uses connection pooling
+  directUrl = "postgres://pdlhcwjc:3nqgtJ82LHQQQmDWvCI823dG6PTZCq7s@trumpet.db.elephantsql.com/pdlhcwjc" // uses a direct connection
 }
 
 model users {
   id        Int      @id @default(autoincrement())
   name      String
-  mobile     String   @unique
+  mobile     String   
   image     String
   createdAt DateTime @default(now())
 }
