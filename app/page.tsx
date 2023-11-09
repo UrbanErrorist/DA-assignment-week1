@@ -26,13 +26,13 @@ export default function Home() {
 				Distributed Applications
 			</h1>
 			<Advice />
-			{/* <Suspense fallback={<TablePlaceholder />}>
+			<Suspense fallback={<TablePlaceholder />}>
 				<Table />
-			</Suspense> */}
+			</Suspense>
 
 			<div className="p-2"></div>
 
-			{/* <TableEdit /> */}
+			<TableEdit />
 
 			<p className="font-light text-gray-600 w-full max-w-lg text-center mt-6">
 				{" "}
